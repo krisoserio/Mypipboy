@@ -12,6 +12,7 @@
   margin-top: 100px;
   filter: grayscale(1) sepia(100%) hue-rotate(55deg) saturate(7) brightness(1) contrast(2);
   margin-top: 29px;
+  padding-right: 70px;
 }
 .center-img{
   position: absolute;
@@ -163,6 +164,7 @@ margin-top: 10px;
 .stat-bar{
   width: 60px;
   margin: auto;
+
 }
 
 #status{
@@ -213,8 +215,76 @@ margin-top: 10px;
 .col-2 .img-responsive{
     width: 130%;
     margin-top: 10px;
+    margin-left: -3px;
+    filter: grayscale(1) sepia(100%) hue-rotate(55deg) saturate(10) brightness(1) contrast(2);
 
 }
 .row.stat-number{
   margin-top: -40px;
+}
+.col-1 .img-responsive{
+  width: 300%;
+  margin-left: -6px;
+}
+.col-1 .points{
+  margin-left: -4px;
+}
+ .col-6 .name{
+   margin-top: -75px;
+   font-size: 20PX;
+   position: absolute;
+}
+#status.tab-pane.full{
+  width: 100%;
+  max-width: 100%;
+
+}
+.item-list{
+  list-style: none;
+
+}
+.main-tab.form{
+  max-width: 80%;
+  margin-left: 100px;
+}
+.item-list >li .pistol{
+  display: block;
+  width: 300px;
+  padding: 10px;
+  color: #14fe17 !important;
+  padding-left: 0px;
+}
+
+.tab-pane.full{
+  height: calc(100vh - 180px)
+}
+.item-stats{
+  position: absolute;
+  right: 30px;
+  bottom: 50px;
+  width: 300px;
+  margin-bottom: 50px;
+
+}
+.pull-left{
+  float: left !important;
+}
+.pull-right{
+  float: right !important;
+}
+.item-stats .row .col-12{
+  margin-bottom: 6px;
+  background-color: rgba(0, 255, 40, 0.2);
+}
+.item-list a{
+  display: block;
+  width: 300px;
+  padding: 10px;
+  color: #14fe17 !important;
+  padding-left: 0px;
+}
+.item-list a:hover{
+  background: rgba(0,240,40,.2);
+  text-decoration: none;
+  color: #272b23;
 }
