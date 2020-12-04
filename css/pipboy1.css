@@ -19,6 +19,22 @@
   left: 0px;
   width: 100%;
 }
+.new-img img{
+  margin:auto;
+  display: block;
+  position:  relative;
+  height: 200px;
+  margin-top: 100px;
+  filter: grayscale(1) sepia(100%) hue-rotate(55deg) saturate(7) brightness(1) contrast(2);
+  margin-top: 29px;
+  padding-right: 70px;
+  width: 300%;
+
+}
+.new-img{
+  width: 60%;
+  left:0;
+}
 
 .pip-footer{
   position: fixed;
@@ -168,7 +184,7 @@ margin-top: 10px;
 }
 
 #status{
-  max-width: 400px;
+  max-width: 300px;
   margin: auto;
 }
 .stat-bars > .row{
@@ -249,7 +265,7 @@ margin-top: 10px;
 }
 .item-list >li .pistol{
   display: block;
-  width: 300px;
+  width: 200px;
   padding: 10px;
   color: #14fe17 !important;
   padding-left: 0px;
@@ -278,10 +294,11 @@ margin-top: 10px;
 }
 .item-list a{
   display: block;
-  width: 300px;
+  width: 200px;
   padding: 10px;
   color: #14fe17 !important;
   padding-left: 0px;
+
 }
 .item-list a:hover{
   background: rgba(0,240,40,.2);
@@ -299,6 +316,16 @@ margin-top: 10px;
   margin-left: -15px;
 
 }
-.item-list a.active:hover::after{
-background: #272b23;
+.item-list a.active{
+background: rgba(0,250,45,0.2);
+width: 200px;
+
+
+}
+.item-list li{
+  margin-bottom: 2px;
+
+}
+.item-list a.we{
+  margin-top: -200px;
 }

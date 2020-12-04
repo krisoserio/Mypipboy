@@ -69,10 +69,7 @@ $(document).ready(function(){
 $('.item-list a').on('click',function(e){
   $('.item-list a').removeClass('active');
   $(e.currentTarget).addClass('active');
-});
-$('.item-list li').on('click',function(e){
-  $('.item-list li').removeClass('active');
-  $(e.currentTarget).addClass('active');
+
 });
 
 $('.item-list a').on('mouseenter',function(e){
